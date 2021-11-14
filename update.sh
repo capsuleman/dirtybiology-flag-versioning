@@ -1,3 +1,3 @@
-curl https://api-flag.fouloscopie.com/flag | python -m json.tool > flag-data.json
-git add flag-data.json
+curl https://api-flag.fouloscopie.com/flag | python3 formatter.py > flag-data.csv
+git add flag-data.csv
 git commit -m ":camera_flash: Update flag data"
